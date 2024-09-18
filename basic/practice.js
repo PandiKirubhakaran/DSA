@@ -8,3 +8,11 @@ console.log(4.0.toString(),(4).toString(),4 .toString()); //'4','4','4'
 console.log(typeof(a.toString()));//string
 console.log('123'.split(''));//['1','2','3']
 console.log(['1', '2', '3'].join('e'));//1e2e3
+
+let check={
+    "ADMIN":'admin',
+    'USER':'user',
+    'GUEST':'guest',
+    'ARRAY':[1,2,3,4,5,6,7,8,9]
+}
+console.log(check["ARRAY"]) //[1,2,3,4,5,...]
